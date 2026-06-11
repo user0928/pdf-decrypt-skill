@@ -1,0 +1,7 @@
+interface:
+  display_name: "PDF Decrypt"
+  short_description: "Remove known PDF passwords with qpdf."
+  default_prompt: "Use $pdf-decrypt to decrypt this known-password PDF with qpdf and verify the output."
+
+policy:
+  allow_implicit_invocation: true
